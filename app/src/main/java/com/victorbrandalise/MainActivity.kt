@@ -1,7 +1,15 @@
 package com.victorbrandalise
 
+import android.os.Bundle
+import android.view.SurfaceView
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.viewinterop.AndroidView
+import com.google.android.filament.utils.Utils
 
 class MainActivity : ComponentActivity() {
     companion object {
